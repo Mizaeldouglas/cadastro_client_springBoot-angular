@@ -1,9 +1,12 @@
-package io.github.mizaeldouglas.entity;
+package io.github.mizaeldouglas.clientes.model.entity;
+
+import lombok.Data;
 
 import javax.persistence.*;
 import java.time.LocalDate;
 
 @Entity
+@Data
 public class Cliente {
 
 	@Id
@@ -16,7 +19,8 @@ public class Cliente {
 	@Column(nullable = false,length = 11)
 	private String cpf;
 
-	@Column
+	@Column(name = "data_cadastro")
 	private LocalDate dataCadastro;
+
 
 }

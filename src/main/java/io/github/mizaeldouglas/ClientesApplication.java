@@ -1,4 +1,4 @@
-package io.github.mizaeldouglas.clientes;
+package io.github.mizaeldouglas;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
